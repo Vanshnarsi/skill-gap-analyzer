@@ -1,0 +1,6 @@
+[
+ {"name":"Frontend student","levels":{"HTML":5,"CSS":4,"JavaScript":4,"React":3,"Git":3,"Responsive Design":4,"Accessibility":2,"REST API":2,"Teamwork":4,"Communication":4,"Problem Solving":3,"Tailwind":2,"Python":2}},
+ {"name":"Backend learner","levels":{"Python":4,"Java":3,"SQL":4,"Git":3,"Node.js":2,"Express":2,"REST API":3,"Docker":2,"MongoDB":2,"Data Structures":4,"OOP":4,"Testing":2,"Problem Solving":4,"Communication":3}},
+ {"name":"Full-stack graduate","levels":{"JavaScript":4,"TypeScript":3,"HTML":5,"CSS":4,"React":4,"Node.js":4,"Express":3,"MongoDB":3,"SQL":3,"Git":4,"Docker":2,"REST API":4,"GraphQL":2,"CI/CD":2,"Jest":3,"Agile":3,"Teamwork":4,"Communication":4,"Problem Solving":4,"Leadership":2}},
+{"name":"data engineer","levels":{"JavaScript":4,"TypeScript":3,"HTML":5,"CSS":4,"React":4,"Node.js":4,"Express":3,"MongoDB":3,"SQL":3,"Git":4,"Docker":2,"REST API":4,"GraphQL":2,"CI/CD":2,"Jest":3,"Agile":3,"Teamwork":4,"Communication":4,"Problem Solving":4,"Leadership":2}}
+]

@@ -1,0 +1,12 @@
+[
+ {
+  "title": "Frontend Developer",
+  "text": "Frontend Developer\n\nAbout the role\nWe are building a design system and need an engineer who cares about accessibility and performance.\n\nRequirements\n- Strong JavaScript and TypeScript skills; 3+ years with React\n- Must have solid HTML5 and CSS3, including responsive design\n- Experience consuming REST APIs and using Git\n- Excellent communication and teamwork\n\nNice to have\n- Node.js or GraphQL experience\n- Familiarity with Docker and CI/CD\n- Jest or other unit testing tools is a bonus"
+ },
+ {
+  "title": "Backend Engineer",
+  "text": "Backend Engineer\n\nYou will design services in Node.js and C# (.NET) backed by PostgreSQL.\n\nRequired:\n- Proficiency in C#, .NET and SQL\n- Experience with Docker, Kubernetes and AWS\n- Strong understanding of data structures and REST APIs\n- Problem solving and leadership\n\nPreferred:\n- C++ for performance-critical modules\n- GraphQL, MongoDB"
+ },
+ { "title": "Data engineer",
+  "text": "Data engineer\n\nYou will design services in Node.js and C# (.NET) backed by PostgreSQL.\n\nRequired:\n- Proficiency in C#, .NET and SQL\n- Experience with Docker, Kubernetes and AWS\n- Strong understanding of data structures and REST APIs\n- Problem solving and leadership\n\nPreferred:\n- C++ for performance-critical modules\n- GraphQL, MongoDB"}
+]

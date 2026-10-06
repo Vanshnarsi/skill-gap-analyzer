@@ -1,0 +1,6 @@
+body{background:#fff;color:#000;font-size:11pt}
+.top p,#jd,#sample,#clear,#history,.actions,.tabs,.profile,.toast,label.inline,h3{display:none!important}
+.layout{display:block;padding:0}.pane{border:0;padding:0;margin-bottom:1rem;position:static!important;max-height:none!important}
+[role=tabpanel]{display:block!important}
+mark{background:#ddd!important;border:1px solid #888}
+.gauge{print-color-adjust:exact;-webkit-print-color-adjust:exact}

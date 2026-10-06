@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skill Gap Analyzer</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+<header class="top">
+  <h1>Skill Gap Analyzer</h1>
+  <p>Paste a job description. See what it asks for, and what you still need to learn.</p>
+</header>
+<main class="layout">
+  <section class="pane" aria-labelledby="in-h">
+    <h2 id="in-h">Job description</h2>
+    <label for="jd">Paste the job description</label>
+    <textarea id="jd" rows="16" maxlength="12000" placeholder="Paste a job description here, or load a sample."></textarea>
+    <div class="row">
+      <output id="count" for="jd">0 / 12000 characters</output>
+      <span class="grow"></span>
+      <select id="sample" aria-label="Load a sample description"><option value="">Load sample…</option></select>
+      <button id="clear" type="button">Clear</button>
+    </div>
+    <h3>Saved analyses</h3>
+    <ul id="history" class="plain"></ul>
+  </section>
+
+  <section class="pane" aria-labelledby="hl-h">
+    <div class="row"><h2 id="hl-h">Highlighted text</h2><span class="grow"></span>
+      <label class="inline"><input type="checkbox" id="toggleHl" checked> Show highlights</label></div>
+    <div id="hl" class="hl" aria-live="polite"></div>
+    <ul class="legend plain" id="legend"></ul>
+  </section>
+
+  <section class="pane results" aria-labelledby="res-h">
+    <h2 id="res-h">Results</h2>
+    <div class="score">
+      <div class="gauge" id="gauge" style="--p:0"><span id="pct">0%</span></div>
+      <div>
+        <p>Match with your profile</p>
+        <meter id="meter" min="0" max="100" value="0" low="40" high="70" optimum="100"></meter>
+        <output id="summary">Nothing analysed yet.</output>
+      </div>
+    </div>
+    <div role="tablist" aria-label="Results" class="tabs">
+      <button role="tab" id="t1" aria-controls="p1" aria-selected="true">Skills found</button>
+      <button role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1">Your gaps</button>
+      <button role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1">Learning plan</button>
+    </div>
+    <div role="tabpanel" id="p1" aria-labelledby="t1"></div>
+    <div role="tabpanel" id="p2" aria-labelledby="t2" hidden></div>
+    <div role="tabpanel" id="p3" aria-labelledby="t3" hidden></div>
+    <div class="row actions">
+      <button id="save" type="button">Save analysis</button>
+      <button id="copy" type="button">Copy summary</button>
+      <button id="download" type="button">Download report</button>
+    </div>
+    <details class="profile" open>
+      <summary>Your skill profile (0 = none, 5 = expert)</summary>
+      <div class="row">
+        <label for="preset">Compare with a sample profile</label>
+        <select id="preset"></select>
+        <button id="resetProfile" type="button">Clear profile</button>
+      </div>
+      <div id="profile"></div>
+    </details>
+  </section>
+</main>
+<p id="toast" role="status" class="toast"></p>
+<script src="js/profile.js"></script>
+<script src="js/parser.js"></script>
+<script src="js/scoring.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

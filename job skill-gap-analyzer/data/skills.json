@@ -1,0 +1,350 @@
+{
+ "skills": [
+  {
+   "name": "JavaScript",
+   "cat": "languages",
+   "syn": [
+    "js",
+    "javascript",
+    "ecmascript",
+    "es6"
+   ]
+  },
+  {
+   "name": "TypeScript",
+   "cat": "languages",
+   "syn": [
+    "ts",
+    "typescript"
+   ]
+  },
+  {
+   "name": "Python",
+   "cat": "languages",
+   "syn": [
+    "python"
+   ]
+  },
+  {
+   "name": "Java",
+   "cat": "languages",
+   "syn": [
+    "java"
+   ]
+  },
+  {
+   "name": "C++",
+   "cat": "languages",
+   "syn": [
+    "c++",
+    "cpp"
+   ]
+  },
+  {
+   "name": "C#",
+   "cat": "languages",
+   "syn": [
+    "c#",
+    "csharp"
+   ]
+  },
+  {
+   "name": ".NET",
+   "cat": "languages",
+   "syn": [
+    ".net",
+    "dotnet",
+    "asp.net"
+   ]
+  },
+  {
+   "name": "PHP",
+   "cat": "languages",
+   "syn": [
+    "php"
+   ]
+  },
+  {
+   "name": "Go",
+   "cat": "languages",
+   "syn": [
+    "golang"
+   ]
+  },
+  {
+   "name": "SQL",
+   "cat": "languages",
+   "syn": [
+    "sql",
+    "mysql",
+    "postgresql",
+    "postgres"
+   ]
+  },
+  {
+   "name": "HTML",
+   "cat": "languages",
+   "syn": [
+    "html",
+    "html5"
+   ]
+  },
+  {
+   "name": "CSS",
+   "cat": "languages",
+   "syn": [
+    "css",
+    "css3",
+    "sass",
+    "scss"
+   ]
+  },
+  {
+   "name": "React",
+   "cat": "tooling",
+   "syn": [
+    "react",
+    "reactjs",
+    "react.js"
+   ]
+  },
+  {
+   "name": "Angular",
+   "cat": "tooling",
+   "syn": [
+    "angular",
+    "angularjs"
+   ]
+  },
+  {
+   "name": "Vue",
+   "cat": "tooling",
+   "syn": [
+    "vue",
+    "vuejs",
+    "vue.js"
+   ]
+  },
+  {
+   "name": "Node.js",
+   "cat": "tooling",
+   "syn": [
+    "node.js",
+    "nodejs",
+    "node"
+   ]
+  },
+  {
+   "name": "Express",
+   "cat": "tooling",
+   "syn": [
+    "express",
+    "expressjs"
+   ]
+  },
+  {
+   "name": "Git",
+   "cat": "tooling",
+   "syn": [
+    "git",
+    "github",
+    "gitlab",
+    "version control"
+   ]
+  },
+  {
+   "name": "Docker",
+   "cat": "tooling",
+   "syn": [
+    "docker",
+    "containers",
+    "containerization"
+   ]
+  },
+  {
+   "name": "AWS",
+   "cat": "tooling",
+   "syn": [
+    "aws",
+    "amazon web services"
+   ]
+  },
+  {
+   "name": "Kubernetes",
+   "cat": "tooling",
+   "syn": [
+    "kubernetes",
+    "k8s"
+   ]
+  },
+  {
+   "name": "MongoDB",
+   "cat": "tooling",
+   "syn": [
+    "mongodb",
+    "mongo"
+   ]
+  },
+  {
+   "name": "Tailwind",
+   "cat": "tooling",
+   "syn": [
+    "tailwind",
+    "tailwindcss"
+   ]
+  },
+  {
+   "name": "Jest",
+   "cat": "tooling",
+   "syn": [
+    "jest",
+    "vitest",
+    "unit testing"
+   ]
+  },
+  {
+   "name": "Webpack",
+   "cat": "tooling",
+   "syn": [
+    "webpack",
+    "vite",
+    "bundler"
+   ]
+  },
+  {
+   "name": "CI/CD",
+   "cat": "tooling",
+   "syn": [
+    "ci/cd",
+    "cicd",
+    "continuous integration",
+    "github actions",
+    "jenkins"
+   ]
+  },
+  {
+   "name": "REST API",
+   "cat": "concepts",
+   "syn": [
+    "rest",
+    "restful",
+    "rest api",
+    "api",
+    "apis"
+   ]
+  },
+  {
+   "name": "GraphQL",
+   "cat": "concepts",
+   "syn": [
+    "graphql"
+   ]
+  },
+  {
+   "name": "Responsive Design",
+   "cat": "concepts",
+   "syn": [
+    "responsive design",
+    "responsive",
+    "mobile-first"
+   ]
+  },
+  {
+   "name": "Accessibility",
+   "cat": "concepts",
+   "syn": [
+    "accessibility",
+    "a11y",
+    "wcag"
+   ]
+  },
+  {
+   "name": "Agile",
+   "cat": "concepts",
+   "syn": [
+    "agile",
+    "scrum",
+    "kanban"
+   ]
+  },
+  {
+   "name": "Testing",
+   "cat": "concepts",
+   "syn": [
+    "testing",
+    "tdd",
+    "test-driven"
+   ]
+  },
+  {
+   "name": "Data Structures",
+   "cat": "concepts",
+   "syn": [
+    "data structures",
+    "algorithms"
+   ]
+  },
+  {
+   "name": "OOP",
+   "cat": "concepts",
+   "syn": [
+    "oop",
+    "object-oriented"
+   ]
+  },
+  {
+   "name": "Performance",
+   "cat": "concepts",
+   "syn": [
+    "performance optimization",
+    "web performance"
+   ]
+  },
+  {
+   "name": "Communication",
+   "cat": "soft",
+   "syn": [
+    "communication",
+    "communicate"
+   ]
+  },
+  {
+   "name": "Teamwork",
+   "cat": "soft",
+   "syn": [
+    "teamwork",
+    "collaboration",
+    "collaborate",
+    "team player"
+   ]
+  },
+  {
+   "name": "Problem Solving",
+   "cat": "soft",
+   "syn": [
+    "problem solving",
+    "problem-solving",
+    "analytical"
+   ]
+  },
+  {
+   "name": "Leadership",
+   "cat": "soft",
+   "syn": [
+    "leadership",
+    "mentoring",
+    "mentor"
+   ]
+  },
+  {
+   "name": "Time Management",
+   "cat": "soft",
+   "syn": [
+    "time management",
+    "deadlines",
+    "prioritisation",
+    "prioritization"
+   ]
+  }
+ ]
+}
